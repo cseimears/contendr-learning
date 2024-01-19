@@ -18,24 +18,29 @@ function App() {
   return (
     <div className="App"> 
       <form onSubmit={handleSubmit}>
-        <h1>Teacher Login</h1>
-        <label className="usernameLabel" htmlFor="username">Username</label>
-        <input 
+        <h2  className="loginGreeting">Welcome to Contendr Learning!</h2>
+        <p className="appDescription">A place to compete with your peers to see who knows their stuff.</p>
+        <p className="compete">Win to take home the 🏆</p>
+        <p className="signinPrompt">Login or register to get started</p>
+        <input
+          className="usernameInput" 
           id="username"
           value={username}
+          placeholder="Username"
           onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
             setUsername(e.target.value);
           }}
           />
-        <label className="passwordLabel" htmlFor="password">Password</label>
         <input 
+          className="passwordInput"
           id="password"
+          placeholder="Password"
           value={password}
           onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
             setPassword(e.target.value);
           }}
           />
-          <button>Login</button>
+          <div className="LoginRegisterButtons"><button className="LoginButton">Login</button><button className="RegisterButton">Register</button></div>
       </form>
     </div>
   );
