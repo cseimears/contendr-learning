@@ -19,17 +19,17 @@ function App() {
     <div className="App"> 
       <form onSubmit={handleSubmit}>
         <h1>Teacher Login</h1>
-        <label htmlFor="username-label">Username</label>
+        <label className="usernameLabel" htmlFor="username">Username</label>
         <input 
-          id="username-label"
+          id="username"
           value={username}
           onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
             setUsername(e.target.value);
           }}
           />
-        <label htmlFor="password-label">Password</label>
+        <label className="passwordLabel" htmlFor="password">Password</label>
         <input 
-          id="password-label"
+          id="password"
           value={password}
           onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
             setPassword(e.target.value);
