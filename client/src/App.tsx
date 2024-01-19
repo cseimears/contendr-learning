@@ -21,7 +21,7 @@ function App() {
         <h2  className="loginGreeting">Welcome to Contendr Learning!</h2>
         <p className="appDescription">A place to compete with your peers to see who knows their stuff.</p>
         <p className="compete">Win to take home the 🏆</p>
-        <p className="signinPrompt">Login or register to get started</p>
+        <p className="signinPrompt">Login or register to get started!</p>
         <input
           className="usernameInput" 
           id="username"

@@ -1,6 +1,6 @@
 
 body {
-    background: linear-gradient(45deg, #3921b3, #58a1d9);
+    background: linear-gradient(180deg, #3921b3, #58a1d9,#F2C070);
     background-size: 400% 400%;
     font-family: 'Inter', sans-serif;
     margin-top: 200px;
@@ -20,7 +20,7 @@ body {
   }
 
 form {
-  background-color: black;
+  background: black;
   display: flex;
   flex-direction: column;
   border: none;
@@ -31,6 +31,7 @@ form {
   margin-left: 32%;
   margin-right: 32%;
 }
+
 
 h2 {
   color: white;
@@ -60,7 +61,7 @@ p.compete {
 p.signinPrompt {
   color: white;
   font-size: 1.0rem;
-  font-weight: regular;
+  font-weight: bold;
   margin-bottom: 25px;
   display: flex;
 }
@@ -79,7 +80,7 @@ input {
   font-size: 1.0rem;
   font-weight: regular;
   color: white;
-  opacity: 80%;
+  opacity: 100%;
 }
 
 div.LoginRegisterButtons {
@@ -97,7 +98,7 @@ button {
   box-shadow: 10px;
   width: 120px;
   height: 40px;
-  background-color: #2f0cdb;
+  background-color: #3921b3;
   color: white;
   font-size: 1.0rem;
   font-weight: semi-bold;
